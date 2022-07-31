@@ -11,9 +11,9 @@ pipeline {
                 sh './mvnw test'
             }
         }
-        stage('Deploy') {
+        stage('Install') {
             steps {
-                sh './mvnw deploy'
+                sh './mvnw install'
             }
         }
 
