@@ -8,7 +8,6 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>d0c546a</id>
       <name>spring-petclinic</name>
       <url>https://github.com/currend/spring-petclinic</url>
       <layout>default</layout>
